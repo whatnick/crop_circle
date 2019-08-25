@@ -1,0 +1,10 @@
+[package]
+name = "crop_circle"
+version = "0.1.0"
+authors = ["Tisham Dhar <tisham@whatnick.com>"]
+edition = "2018"
+
+[dependencies]
+opencv = {version = "0.19.1", default-features = false, features = ["opencv-32"]}
+rusoto_s3 = "0.40.0"
+url = "2.1.0"
