@@ -1,5 +1,5 @@
 use std::env;
-use url::{Url,ParseError};
+use url::Url;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
